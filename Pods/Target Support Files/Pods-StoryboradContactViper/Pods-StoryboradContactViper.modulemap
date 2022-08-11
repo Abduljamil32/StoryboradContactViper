@@ -1,0 +1,6 @@
+framework module Pods_StoryboradContactViper {
+  umbrella header "Pods-StoryboradContactViper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,6 +13,28 @@
 		118BB23E28A4DFE000F6838D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118BB23C28A4DFE000F6838D /* Main.storyboard */; };
 		118BB24028A4DFE100F6838D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118BB23F28A4DFE100F6838D /* Assets.xcassets */; };
 		118BB24328A4DFE100F6838D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118BB24128A4DFE100F6838D /* LaunchScreen.storyboard */; };
+		118BB24F28A4E08A00F6838D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB24E28A4E08A00F6838D /* BaseViewController.swift */; };
+		118BB25528A4E14900F6838D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB25328A4E14900F6838D /* HomeViewController.swift */; };
+		118BB25628A4E14900F6838D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118BB25428A4E14900F6838D /* HomeViewController.xib */; };
+		118BB25928A4E15400F6838D /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB25728A4E15400F6838D /* CreateViewController.swift */; };
+		118BB25A28A4E15400F6838D /* CreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118BB25828A4E15400F6838D /* CreateViewController.xib */; };
+		118BB25D28A4E15E00F6838D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB25B28A4E15E00F6838D /* EditViewController.swift */; };
+		118BB25E28A4E15E00F6838D /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118BB25C28A4E15E00F6838D /* EditViewController.xib */; };
+		118BB26028A4E17200F6838D /* AFHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB25F28A4E17200F6838D /* AFHTTP.swift */; };
+		118BB26228A4E17F00F6838D /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB26128A4E17F00F6838D /* HTTPManager.swift */; };
+		118BB26428A4E18A00F6838D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB26328A4E18A00F6838D /* Contact.swift */; };
+		118BB26728A4E19D00F6838D /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB26528A4E19D00F6838D /* ContactTableViewCell.swift */; };
+		118BB26828A4E19D00F6838D /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118BB26628A4E19D00F6838D /* ContactTableViewCell.xib */; };
+		118BB26A28A4E56400F6838D /* HomeRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB26928A4E56400F6838D /* HomeRouting.swift */; };
+		118BB26C28A4E56D00F6838D /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB26B28A4E56D00F6838D /* HomeInteractor.swift */; };
+		118BB26E28A4E57900F6838D /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB26D28A4E57900F6838D /* HomePresenter.swift */; };
+		118BB27028A4E7CE00F6838D /* CreateRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB26F28A4E7CE00F6838D /* CreateRouting.swift */; };
+		118BB27328A4E7EC00F6838D /* CreateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB27228A4E7EC00F6838D /* CreateInteractor.swift */; };
+		118BB27528A4E7F700F6838D /* CreatePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB27428A4E7F700F6838D /* CreatePresenter.swift */; };
+		118BB27728A4E96300F6838D /* EditInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB27628A4E96300F6838D /* EditInteractor.swift */; };
+		118BB27928A4E96E00F6838D /* EditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB27828A4E96E00F6838D /* EditPresenter.swift */; };
+		118BB27B28A4E97900F6838D /* EditRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BB27A28A4E97900F6838D /* EditRouting.swift */; };
+		959E23F558B5941DF70373ED /* Pods_StoryboradContactViper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F231D9EE1D3E28D80739322A /* Pods_StoryboradContactViper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +46,30 @@
 		118BB23F28A4DFE100F6838D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118BB24228A4DFE100F6838D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118BB24428A4DFE100F6838D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118BB24E28A4E08A00F6838D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		118BB25328A4E14900F6838D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		118BB25428A4E14900F6838D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		118BB25728A4E15400F6838D /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		118BB25828A4E15400F6838D /* CreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateViewController.xib; sourceTree = "<group>"; };
+		118BB25B28A4E15E00F6838D /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		118BB25C28A4E15E00F6838D /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		118BB25F28A4E17200F6838D /* AFHTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHTTP.swift; sourceTree = "<group>"; };
+		118BB26128A4E17F00F6838D /* HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		118BB26328A4E18A00F6838D /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		118BB26528A4E19D00F6838D /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		118BB26628A4E19D00F6838D /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		118BB26928A4E56400F6838D /* HomeRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouting.swift; sourceTree = "<group>"; };
+		118BB26B28A4E56D00F6838D /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		118BB26D28A4E57900F6838D /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		118BB26F28A4E7CE00F6838D /* CreateRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRouting.swift; sourceTree = "<group>"; };
+		118BB27228A4E7EC00F6838D /* CreateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateInteractor.swift; sourceTree = "<group>"; };
+		118BB27428A4E7F700F6838D /* CreatePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePresenter.swift; sourceTree = "<group>"; };
+		118BB27628A4E96300F6838D /* EditInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditInteractor.swift; sourceTree = "<group>"; };
+		118BB27828A4E96E00F6838D /* EditPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPresenter.swift; sourceTree = "<group>"; };
+		118BB27A28A4E97900F6838D /* EditRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRouting.swift; sourceTree = "<group>"; };
+		14064D8296F2572E6A81E9DC /* Pods-StoryboradContactViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryboradContactViper.debug.xcconfig"; path = "Target Support Files/Pods-StoryboradContactViper/Pods-StoryboradContactViper.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5141ABCF23D9105AD49B82 /* Pods-StoryboradContactViper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryboradContactViper.release.xcconfig"; path = "Target Support Files/Pods-StoryboradContactViper/Pods-StoryboradContactViper.release.xcconfig"; sourceTree = "<group>"; };
+		F231D9EE1D3E28D80739322A /* Pods_StoryboradContactViper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryboradContactViper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959E23F558B5941DF70373ED /* Pods_StoryboradContactViper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +89,8 @@
 			children = (
 				118BB23528A4DFE000F6838D /* StoryboradContactViper */,
 				118BB23428A4DFE000F6838D /* Products */,
+				1A2AABF403902CF96764EBB2 /* Pods */,
+				5FEB42867FD1A62ABBF36E2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +105,10 @@
 		118BB23528A4DFE000F6838D /* StoryboradContactViper */ = {
 			isa = PBXGroup;
 			children = (
+				118BB24A28A4DFFC00F6838D /* controllers */,
+				118BB24B28A4E00500F6838D /* networking */,
+				118BB24D28A4E02500F6838D /* model */,
+				118BB24C28A4E01E00F6838D /* cell */,
 				118BB23628A4DFE000F6838D /* AppDelegate.swift */,
 				118BB23828A4DFE000F6838D /* SceneDelegate.swift */,
 				118BB23A28A4DFE000F6838D /* ViewController.swift */,
@@ -67,6 +120,96 @@
 			path = StoryboradContactViper;
 			sourceTree = "<group>";
 		};
+		118BB24A28A4DFFC00F6838D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				118BB24E28A4E08A00F6838D /* BaseViewController.swift */,
+				118BB25028A4E12300F6838D /* home */,
+				118BB25228A4E12F00F6838D /* create */,
+				118BB25128A4E12A00F6838D /* edit */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		118BB24B28A4E00500F6838D /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				118BB25F28A4E17200F6838D /* AFHTTP.swift */,
+				118BB26128A4E17F00F6838D /* HTTPManager.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		118BB24C28A4E01E00F6838D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				118BB26528A4E19D00F6838D /* ContactTableViewCell.swift */,
+				118BB26628A4E19D00F6838D /* ContactTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		118BB24D28A4E02500F6838D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				118BB26328A4E18A00F6838D /* Contact.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		118BB25028A4E12300F6838D /* home */ = {
+			isa = PBXGroup;
+			children = (
+				118BB25328A4E14900F6838D /* HomeViewController.swift */,
+				118BB25428A4E14900F6838D /* HomeViewController.xib */,
+				118BB26928A4E56400F6838D /* HomeRouting.swift */,
+				118BB26B28A4E56D00F6838D /* HomeInteractor.swift */,
+				118BB26D28A4E57900F6838D /* HomePresenter.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		118BB25128A4E12A00F6838D /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				118BB25B28A4E15E00F6838D /* EditViewController.swift */,
+				118BB25C28A4E15E00F6838D /* EditViewController.xib */,
+				118BB27628A4E96300F6838D /* EditInteractor.swift */,
+				118BB27828A4E96E00F6838D /* EditPresenter.swift */,
+				118BB27A28A4E97900F6838D /* EditRouting.swift */,
+			);
+			path = edit;
+			sourceTree = "<group>";
+		};
+		118BB25228A4E12F00F6838D /* create */ = {
+			isa = PBXGroup;
+			children = (
+				118BB25728A4E15400F6838D /* CreateViewController.swift */,
+				118BB25828A4E15400F6838D /* CreateViewController.xib */,
+				118BB26F28A4E7CE00F6838D /* CreateRouting.swift */,
+				118BB27228A4E7EC00F6838D /* CreateInteractor.swift */,
+				118BB27428A4E7F700F6838D /* CreatePresenter.swift */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		1A2AABF403902CF96764EBB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14064D8296F2572E6A81E9DC /* Pods-StoryboradContactViper.debug.xcconfig */,
+				EF5141ABCF23D9105AD49B82 /* Pods-StoryboradContactViper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FEB42867FD1A62ABBF36E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F231D9EE1D3E28D80739322A /* Pods_StoryboradContactViper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 118BB24728A4DFE100F6838D /* Build configuration list for PBXNativeTarget "StoryboradContactViper" */;
 			buildPhases = (
+				0C67E5A478253875FB5E91AA /* [CP] Check Pods Manifest.lock */,
 				118BB22F28A4DFE000F6838D /* Sources */,
 				118BB23028A4DFE000F6838D /* Frameworks */,
 				118BB23128A4DFE000F6838D /* Resources */,
+				58853CBFA8B504BE21487D8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +270,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118BB25E28A4E15E00F6838D /* EditViewController.xib in Resources */,
 				118BB24328A4DFE100F6838D /* LaunchScreen.storyboard in Resources */,
+				118BB26828A4E19D00F6838D /* ContactTableViewCell.xib in Resources */,
+				118BB25A28A4E15400F6838D /* CreateViewController.xib in Resources */,
 				118BB24028A4DFE100F6838D /* Assets.xcassets in Resources */,
 				118BB23E28A4DFE000F6838D /* Main.storyboard in Resources */,
+				118BB25628A4E14900F6838D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C67E5A478253875FB5E91AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoryboradContactViper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58853CBFA8B504BE21487D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryboradContactViper/Pods-StoryboradContactViper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryboradContactViper/Pods-StoryboradContactViper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoryboradContactViper/Pods-StoryboradContactViper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		118BB22F28A4DFE000F6838D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118BB27728A4E96300F6838D /* EditInteractor.swift in Sources */,
+				118BB27328A4E7EC00F6838D /* CreateInteractor.swift in Sources */,
+				118BB25528A4E14900F6838D /* HomeViewController.swift in Sources */,
 				118BB23B28A4DFE000F6838D /* ViewController.swift in Sources */,
+				118BB27528A4E7F700F6838D /* CreatePresenter.swift in Sources */,
+				118BB27028A4E7CE00F6838D /* CreateRouting.swift in Sources */,
+				118BB26728A4E19D00F6838D /* ContactTableViewCell.swift in Sources */,
+				118BB26428A4E18A00F6838D /* Contact.swift in Sources */,
+				118BB25928A4E15400F6838D /* CreateViewController.swift in Sources */,
+				118BB26A28A4E56400F6838D /* HomeRouting.swift in Sources */,
+				118BB27B28A4E97900F6838D /* EditRouting.swift in Sources */,
+				118BB24F28A4E08A00F6838D /* BaseViewController.swift in Sources */,
+				118BB27928A4E96E00F6838D /* EditPresenter.swift in Sources */,
+				118BB26E28A4E57900F6838D /* HomePresenter.swift in Sources */,
+				118BB26C28A4E56D00F6838D /* HomeInteractor.swift in Sources */,
+				118BB26228A4E17F00F6838D /* HTTPManager.swift in Sources */,
 				118BB23728A4DFE000F6838D /* AppDelegate.swift in Sources */,
 				118BB23928A4DFE000F6838D /* SceneDelegate.swift in Sources */,
+				118BB26028A4E17200F6838D /* AFHTTP.swift in Sources */,
+				118BB25D28A4E15E00F6838D /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +490,7 @@
 		};
 		118BB24828A4DFE100F6838D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14064D8296F2572E6A81E9DC /* Pods-StoryboradContactViper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +518,7 @@
 		};
 		118BB24928A4DFE100F6838D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5141ABCF23D9105AD49B82 /* Pods-StoryboradContactViper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
